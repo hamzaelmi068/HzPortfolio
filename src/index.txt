@@ -1,4 +1,6 @@
+This is a personal portfolio made by codewithsadee
 
+https://prod.liveshare.vsengsaas.visualstudio.com/join?0D57B5302506A6B1FDEE09DD05B6322C0EFE
 
 
 
@@ -14,11 +16,11 @@ alt = logo
 
 #---------- HERO ----------#
 
-alt = h.e
+alt = Ahmed Khalid
 
 Software Engineer
 
-name
+Ahmed Khalid
 
 Lorem ipsum dolor sit amet consectetur. Quam ut feugiat ut porta morbi lobortis tristique.
 
