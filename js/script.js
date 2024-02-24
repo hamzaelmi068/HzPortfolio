@@ -12,3 +12,20 @@ navToggleBtn.addEventListener("click", function () {
   header.classList.toggle("nav-active");
   this.classList.toggle("active");
 });
+
+/* toggle the navbar whenever its clicked
+*/
+
+const navBarLinks = document.querySelectorAll("[data-nav-link]");
+
+for (let i = 0; i < navBarLinks.length; i++){
+    navBarLinks[i].addEventListener("click", function(){
+        header.classList.toggle("nav-active");
+        navToggleBtn.classList.toggle("active");
+    });
+}
+
+
+// back to top and header
+
+const backTopBtn = document.querySelector("[data-back-to-top]");
