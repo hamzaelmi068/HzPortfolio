@@ -1,6 +1,5 @@
 /*style.css */
 
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -8,7 +7,8 @@
 :root {
 
   /**
-  /* Defining custom properties (CSS variables) for colors, typography, border radius, spacing, shadow, and transitions. */
+   * colors
+   */
 
   --cadet-blue-crayola: hsl(240, 10%, 70%);
   --gold-web-golden: hsl(50, 100%, 54%);
@@ -83,28 +83,22 @@
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
-/* Reset styles to ensure consistency across browsers. */
 
 *,
 *::before,
 *::after {
-  /* Remove default margins and padding. */
-  margin:  0;
-  padding:  0;
-  /* Use border-box for layout calculations. */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-/* Remove default list styles. */
 li { list-style: none; }
 
-/* Reset link styles. */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* Ensure form elements are displayed as block and inherit font styles. */
 a,
 img,
 span,
@@ -114,16 +108,13 @@ button,
 textarea,
 ion-icon { display: block; }
 
-/* Reset image height to auto. */
 img { height: auto; }
 
-/* Reset ion-icon styles. */
 ion-icon {
   pointer-events: none;
   color: var(--white);
 }
 
-/* Reset button, input, and textarea styles. */
 button,
 input,
 textarea {
@@ -132,40 +123,36 @@ textarea {
   font: inherit;
 }
 
-/* Ensure buttons are clickable. */
 button { cursor: pointer; }
 
-/* Ensure inputs and textareas take full width. */
 input,
-textarea { width:  100%; }
+textarea { width: 100%; }
 
-/* Reset address font style. */
 address { font-style: normal; }
 
-/* Basic global styles. */
 html {
-  font-size:  10px;
+  font-size: 10px;
   font-family: var(--ff-open-sans);
   scroll-behavior: smooth;
 }
 
 body {
-  /* Set body background color and text color. */
   background-color: var(--space-cadet);
   color: var(--cadet-blue-crayola);
-  font-size:  1.6rem;
-  line-height:  1.6;
+  font-size: 1.6rem;
+  line-height: 1.6;
   overflow-x: hidden;
 }
 
-/* Style for focus visible elements. */
-:focus-visible { outline-offset:  4px; }
+:focus-visible { outline-offset: 4px; }
 
-/* Customize scrollbar appearance. */
-::-webkit-scrollbar { width:  15px; }
-::-webkit-scrollbar-track { background-color: hsl(0,  0%,  95%); }
-::-webkit-scrollbar-thumb { background-color: hsl(0,  0%,  80%); }
-::-webkit-scrollbar-thumb:hover { background-color: hsl(0,  0%,  70%); }
+::-webkit-scrollbar { width: 15px; }
+
+::-webkit-scrollbar-track { background-color: hsl(0, 0%, 95%); }
+
+::-webkit-scrollbar-thumb { background-color: hsl(0, 0%, 80%); }
+
+::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
 
 
 

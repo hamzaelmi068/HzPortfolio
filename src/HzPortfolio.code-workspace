@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "HzPortfolio",
+			"path": "../.."
+		},
+		{
+			"name": "assets",
+			"path": "../../../../../Fall_2023/Devfolio/assets"
+		}
+	],
+	"settings": {}
+}
